@@ -31,7 +31,7 @@ const quotes = [
 
 const body = document.body;
 body.style.fontFamily = "Gill Sans, sans-serif";
-body.style.backgroundImage = "url(ales-nesetril-Im7lZjxeLhg-unsplash.jpg)";
+body.style.backgroundImage = "url(ales-nesetril.jpg)";
 body.style.backgroundSize = "cover";
 body.style.display = "flex";
 body.style.flexDirection = "column";
