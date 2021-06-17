@@ -11,7 +11,7 @@ const quotes = [
     'A conscious human is driven by their conscience, not popular opinion.',
     'Humans are allergic to change. They love to say, ‘We’ve always done it this way',
     'I try to fight that. That’s why I have a clock on my wall that runs counterclockwise',
-    'We need to understand that if we all work on inclusion together, it’s going to be faster, broader, better, and more thorough than anything we can do on our own',
+    'If we all work on inclusion together, it’s going to be faster, broader, better, and more thorough than anything we can do on our own',
     'I think it’s very important to get more women into computing. My slogan is: Computing is too important to be left to men',
     'You should name a variable using the same care with which you name a first-born child',
     'A long descriptive name is better than a short enigmatic name. A long descriptive name is better than a long descriptive comment.',
@@ -49,14 +49,16 @@ const inputDiv = document.querySelector("div");
 
 
 inputDiv.style.textAlign = "center";
-inputDiv.style.width = "60vw";
+inputDiv.style.width = "70vw";
 inputDiv.style.height = "70px";
-inputDiv.style.margin = "30px";
+inputDiv.style.marginTop = "10px";
+inputDiv.style.marginBottom = "30px";
 inputDiv.style.padding = "30px";
 inputDiv.style.borderRadius = "12px";
 inputDiv.style.fontSize = "1.2rem";
 
 buttonQuote.style.background = "transparent";
+buttonQuote.style.margin = "30px";
 buttonQuote.style.padding = "15px";
 buttonQuote.style.borderRadius = "12px";
 buttonQuote.style.border = "1px solid white";
