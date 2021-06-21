@@ -72,3 +72,4 @@ function randomQuote() {
 }
 
 buttonQuote.addEventListener("click", randomQuote);
+randomQuote();
